@@ -1,0 +1,106 @@
+:root {
+  --fontColor: #3b3c4a;
+  --secondary-100: #f4f4f5;
+}
+
+.outer {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inner {
+  height: 36px;
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+.centered_tab {
+  display: flex;
+  width: 667px;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  height: 36px;
+  color: var(--fontColor);
+  font-family: Work Sans;
+  margin-left: 118px;
+  text-align: center;
+  font-size: 15px;
+}
+.inputs {
+  display: flex;
+  width: 166px;
+  padding: 8px 8px 8px 16px;
+  align-items: center;
+  gap: 12px;
+  background-color: var(--secondary-100);
+  border: 0;
+}
+.theme {
+  width: 200px;
+  height: 28px;
+  border-radius: 100px;
+  background-color: var(--secondary-100);
+  display: flex;
+}
+.author {
+  display: flex;
+  width: 1216px;
+  padding: 48px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 12px;
+  background: var(--secondary-100);
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.profile {
+  height: 64px;
+  width: 224px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.para {
+  width: 668px;
+  height: 104px;
+  text-align: center;
+}
+.logos {
+  display: flex;
+  gap: 8px;
+}
+.icons {
+  height: 32px;
+  width: 32px;
+  background-color: #3b3c4a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.maping {
+  padding: 16px;
+  height: 432px;
+  width: 392px;
+  display: flex;
+}
+.thumbnail {
+  width: 360px;
+  height: 240px;
+}
+.files {
+  display: flex;
+  flex-wrap: wrap;
+}
