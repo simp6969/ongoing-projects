@@ -4,7 +4,7 @@
 }
 
 .outer {
-  height: 100vh;
+  height: auto;
   width: 100%;
   display: flex;
   display: flex;
@@ -92,9 +92,12 @@
 
 .maping {
   padding: 16px;
-  height: 432px;
-  width: 392px;
+  height: auto;
+  width: 360px;
   display: flex;
+  flex-direction: column;
+  border: 3px solid var(--secondary-100, #e8e8ea);
+  border-radius: 10px;
 }
 .thumbnail {
   width: 360px;
@@ -103,4 +106,107 @@
 .files {
   display: flex;
   flex-wrap: wrap;
+  width: 90%;
+  gap: 30px;
+  margin-top: 30px;
+}
+.posts {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.h1 {
+  font-family: Work Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.footer {
+  width: 100%;
+  background-color: #e8e8ea;
+  height: 600px;
+  display: flex;
+  font-family: Plus Jakarta Sans;
+}
+.content_of_foot {
+  padding: 64px 352px 0px 352px;
+  display: flex;
+  gap: 70px;
+  flex-direction: column;
+}
+.content_of_foot2 {
+  width: 280px;
+  height: 120px;
+}
+.copyright_info {
+  display: flex;
+  margin-top: 40px;
+  margin-right: -1400px;
+}
+.privacy {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  gap: 32px;
+}
+.links {
+  gap: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.link_content1 {
+  width: 90px;
+  display: flex;
+  flex-direction: column;
+}
+.link_content2 {
+  width: 90px;
+  display: flex;
+  flex-direction: column;
+}
+
+.newsletter {
+  display: flex;
+  width: 392px;
+  padding: 32px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 12px;
+  margin-left: 100px;
+  height: 254px;
+  background-color: white;
+  margin-left: 400px;
+  margin-top: 10px;
+}
+.email {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  width: 320px;
+  height: 41px;
+  border-radius: 6px;
+  font-family: Work Sans;
+  font-size: 16px;
+}
+.get_email {
+  width: 320px;
+  display: flex;
+  justify-content: center;
+}
+
+.subscribe {
+  width: 320px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4b6bfb;
+  border-radius: 10px;
+  color: #e8e8ea;
 }
